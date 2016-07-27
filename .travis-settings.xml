@@ -5,10 +5,16 @@
 
 	<servers>
 		<server>
-			<id>stealthyone-repo</id>
+			<id>stealthyone-releases</id>
 			<username>${env.SONATYPE_USERNAME}</username>
 			<password>${env.SONATYPE_PASSWORD}</password>
-		</server>
+        </server>
+
+        <server>
+            <id>stealthyone-snapshots</id>
+            <username>${env.SONATYPE_USERNAME}</username>
+            <password>${env.SONATYPE_PASSWORD}</password>
+        </server>
 	</servers>
 
 </settings>
