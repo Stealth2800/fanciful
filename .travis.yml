@@ -1,7 +1,7 @@
 language: java
 env:
   global:
-    - SONATYPE_USERNAME=jenkins_deployment
+    - SONATYPE_USERNAME=jenkins-deployment
     - secure: "LPPMqSFxCKCM7ZglxnCIIy0JEDvdwxBJGZCncPQJdhlUI+N5lQPy1BZfSUGE6tr2s4YW7rB1C2m9puXKoku4SIdn5tH67pyGjCz2LDaLRoCVf/HPQDgPWXOY/pWgRgaZ/f9Grbt/kKpscCPiPQ8+/mVsW0ZzJ36QBNsED9ydNDmeW2zzeXBz3kXwXDCH2cXLWkkbunWsdRjGDFlrjDQ1fmiWYUqop5MlDOKdSPtnU3fkcWbb+4l3CK+b+x0eu2rj97wrqD1vtG57+6dEYxRqeB3ciyLbt/Q83vY5z37jBRAeiv1Ygg50CJ5TBTEI0XD3Jzk9yy8lQaRNsWJQmnTBOAoaWuEMQ1Ygb1jbjpd4yO+n+Hg9QpCPTHLC3QLc1eWIfZR7ikBTB+e9K6hK88hWvOM3BgZH0jsolBk+teP/QEywOpO+/cKDxqoFpPCYFIr0zp4Cp9V/Pb+9BvP6j9fIZSnEAD/S/4DqZghLfo+fbcRTnPbENdslLmx11MMvCSySDKVwIbBxsnMIUQXKlRUcJ4tKCc0KFHgiguyjJ6plZzTwtuF/g5eAeIdM1sQihnbF1WfylotOvLaEjcVPLlwiAPVjBLkIhWonLTWmohYgISxr0srFwhQDw8vGB7oqfluy0nHFASEh7T3c1P19LGcaCtWok8o79LtpcsLD4Kr6CfI="
 
 after_success:
